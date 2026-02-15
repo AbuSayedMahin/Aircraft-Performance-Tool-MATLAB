@@ -27,7 +27,7 @@ CD = CD0 + k * CL.^2;                  % Drag polar
 Treq = thrust_required(D);
 
 
-%% ----------------- Plot Thrust & Power Required -----------------
+%% ----------------- Plot Thrust & Power Required ---------------
 
 figure('Color','w','Position',[100 100 820 520]);
 tiledlayout(1,2,'TileSpacing','compact','Padding','compact');
@@ -93,7 +93,7 @@ end
 
 exportgraphics(gcf, fullfile(outputFolder, 'aircraft_performance_final.png'),'Resolution',300);
 
-%% ----------------- Plot Drag Polar -----------------
+%% ----------------- Plot Drag Polar ---------------
 
 % Create a new figure for drag polar
 figure('Color','w','Position',[100 100 600 400]);
@@ -108,3 +108,4 @@ box on
 
 % Save Drag Polar figure
 exportgraphics(gcf, fullfile(outputFolder, 'drag_polar.png'),'Resolution',300);
+
