@@ -1,10 +1,8 @@
-Here's a professionally updated README tailored for a UK Year 2 Aerospace Engineering student seeking internships/placements:
 
----
 
 # Aircraft Performance Analysis Tool ✈️
 
-**Author:** Abu Sayed Mahin | **Course:** BEng Aerospace Engineering (Year 2) | **University:** UWE Bristol
+Author: Abu Sayed Mahin | Course: BEng Aerospace Engineering (Year 2) | University: UWE Bristol
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2023b%2B-orange)](https://uk.mathworks.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/AbuSayedMahin/aircraft-performance-tool)
@@ -81,9 +79,7 @@ Then in MATLAB:
 - `thrust_required.m` - Performance computations  
 - `isa_atmosphere.m` - Atmospheric modeling
 
-## 📈 Future Development (Internship Goals)
-
-During a placement, I aim to extend this tool with:
+## 📈 Future Development 
 
 - [ ] **Full take-off field length** (including balanced field length)
 - [ ] **Climb trajectory simulation** (time/ fuel to altitude)
@@ -103,9 +99,9 @@ During a placement, I aim to extend this tool with:
 
 ## 📬 Contact
 
-I'm actively seeking **2024/2025 aerospace engineering placements** and welcome discussions about potential opportunities.
+I'm actively seeking 2026/2027 aerospace engineering placements and welcome discussions about potential opportunities.
 
-**Abu Sayed Mahin** - BEng Aerospace Engineering (Year 2) - UWE Bristol
+Abu Sayed Mahin - BEng Aerospace Engineering (Year 1) - UWE Bristol
 
 - 📧 **Academic:** abu2.mahin@live.uwe.ac.uk  
 - 📧 **Personal:** sayedmahin37@gmail.com
@@ -114,4 +110,4 @@ I'm actively seeking **2024/2025 aerospace engineering placements** and welcome 
 
 ---
 
-*This project demonstrates my readiness for an industrial placement by combining technical aerospace knowledge with professional software development practices. All code and documentation are maintained to industry standards.*
+This project demonstrates my readiness for an industrial placement by combining technical aerospace knowledge with professional software development practices. All code and documentation are maintained to industry standards.
