@@ -2,11 +2,11 @@
 
 # Aircraft Performance Analysis Tool ✈️
 
-Author: Abu Sayed Mahin | Course: BEng Aerospace Engineering (Year 2) | University: UWE Bristol
+Author: Abu Sayed Mahin | Course: BEng Aerospace Engineering (Year 1) | University: UWE Bristol
 
-[![MATLAB](https://img.shields.io/badge/MATLAB-R2023b%2B-orange)](https://uk.mathworks.com/)
+[![MATLAB](https://img.shields.io/badge/MATLAB-R2025b%2B-orange)](https://uk.mathworks.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/AbuSayedMahin/aircraft-performance-tool)
-[![Portfolio Ready](https://img.shields.io/badge/Status-Portfolio%20Ready-success)]()
+
 
 ## 📌 Project Overview
 
