@@ -1,6 +1,6 @@
 clc; clear; close all;
 
-%% ----------------- Aircraft Configurations -----------------
+% ----------------- Aircraft Configurations -----------------
 aircraft(1).name = 'Aircraft A';
 aircraft(1).S = 30;    aircraft(1).W = 60000; aircraft(1).AR = 8; aircraft(1).e = 0.8; aircraft(1).CD0 = 0.02;
 
@@ -22,7 +22,7 @@ if ~exist(outputFolder, 'dir')
     mkdir(outputFolder);
 end
 
-%% ----------------- Multi-Aircraft Thrust & Power Required -----------------
+% ----------------- Multi-Aircraft Thrust & Power Required -----------------
 figure('Color','w','Position',[100 100 900 550]);
 tiledlayout(1,2,'TileSpacing','compact','Padding','compact');
 
@@ -74,7 +74,7 @@ set(gca,'FontSize',12,'LineWidth',1.2);
 % Save figure
 exportgraphics(gcf, fullfile(outputFolder,'aircraft_performance_multi_aircraft.png'),'Resolution',300);
 
-%% ----------------- Multi-Aircraft Drag Polar -----------------
+% ----------------- Multi-Aircraft Drag Polar -----------------
 figure('Color','w','Position',[100 100 600 400]); hold on;
 for j = 1:length(aircraft)
     S = aircraft(j).S; W = aircraft(j).W; AR = aircraft(j).AR;
@@ -92,7 +92,7 @@ legend({aircraft.name}); set(gca,'FontSize',12,'LineWidth',1.2);
 
 exportgraphics(gcf, fullfile(outputFolder,'drag_polar_multi.png'),'Resolution',300);
 
-%% ----------------- Take-Off & Climb Performance -----------------
+% ----------------- Take-Off & Climb Performance -----------------
 figure('Color','w','Position',[100 100 600 400]); hold on;
 
 CLmax = 1.5;          % Max lift coefficient for take-off
@@ -124,6 +124,7 @@ xlabel('Velocity (m/s)'); title('Take-Off & Climb Performance','FontWeight','bol
 legend({aircraft.name}); set(gca,'FontSize',12,'LineWidth',1.2); box on
 
 exportgraphics(gcf, fullfile(outputFolder,'takeoff_climb.png'),'Resolution',300);
+
 
 
 
